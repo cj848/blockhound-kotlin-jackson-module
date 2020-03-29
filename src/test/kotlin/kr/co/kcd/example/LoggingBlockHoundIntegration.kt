@@ -4,6 +4,7 @@ import com.google.auto.service.AutoService
 import reactor.blockhound.BlockHound
 import reactor.blockhound.integration.BlockHoundIntegration
 
+@Suppress("unused")
 @AutoService(BlockHoundIntegration::class)
 class LoggingBlockHoundIntegration : BlockHoundIntegration {
     override fun applyTo(builder: BlockHound.Builder) {
