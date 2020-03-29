@@ -96,6 +96,6 @@ Stack trace:
 		at java.lang.Thread.run(Thread.java:830) [?:?]
 ```
 
-but, if comment out in build.gradle.kts below line. tests are succesful.
+but, if you uncomment in build.gradle.kts below line. tests are succesful.
 
 implementation("com.fasterxml.jackson.module:jackson-module-kotlin") 
